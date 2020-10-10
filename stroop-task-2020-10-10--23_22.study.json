@@ -1,0 +1,833 @@
+{
+  "components": {
+    "1": {
+      "id": "1",
+      "type": "lab.canvas.Frame",
+      "context": "<main class=\"content-vertical-center content-horizontal-center\">\n  <canvas />\n</main>\n\n<footer class=\"content-vertical-center content-horizontal-center\">\n  <p>\n    رنگ <em>کلمه بالا </em>چیست? <br>\n    لطفا برای رنگ قرمز کلید <kbd>r</kbd> ، برای رنگ سبز، \n    <kbd>g</kbd> برای رنگ آبی ، \n    <kbd>b</kbd> و برای رنگ نارنجی <kbd>o</kbd> را فشار دهید.\n  </p>\n</footer>\n",
+      "contextSelector": "canvas",
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Task frame",
+      "children": [
+        "3"
+      ]
+    },
+    "2": {
+      "id": "2",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "2.4.4",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 18.69,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "+",
+          "fontSize": "72",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "5",
+          "styles": {}
+        }
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "viewport": [
+        800,
+        600
+      ],
+      "title": "Fixation cross",
+      "timeout": "500"
+    },
+    "3": {
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "id": "3",
+      "type": "lab.flow.Loop",
+      "children": [
+        "4"
+      ],
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "color",
+            "type": "string"
+          },
+          {
+            "name": "word",
+            "type": "string"
+          },
+          {
+            "name": "phase",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "red",
+            "قرمز",
+            "task"
+          ],
+          [
+            "red",
+            "قرمز",
+            "task"
+          ],
+          [
+            "red",
+            "قرمز",
+            "task"
+          ],
+          [
+            "red",
+            "سبز",
+            "task"
+          ],
+          [
+            "red",
+            "آبی",
+            "task"
+          ],
+          [
+            "red",
+            "نارنجی",
+            "task"
+          ],
+          [
+            "green",
+            "سبز",
+            "task"
+          ],
+          [
+            "green",
+            "سبز",
+            "task"
+          ],
+          [
+            "green",
+            "سبز",
+            "task"
+          ],
+          [
+            "green",
+            "سبز",
+            "task"
+          ],
+          [
+            "green",
+            "آبی",
+            "task"
+          ],
+          [
+            "green",
+            "نارنجی",
+            "task"
+          ],
+          [
+            "blue",
+            "سبز",
+            "task"
+          ],
+          [
+            "blue",
+            "آبی",
+            "task"
+          ],
+          [
+            "blue",
+            "آبی",
+            "task"
+          ],
+          [
+            "blue",
+            "آبی",
+            "task"
+          ],
+          [
+            "blue",
+            "آبی",
+            "task"
+          ],
+          [
+            "blue",
+            "نارنجی",
+            "task"
+          ],
+          [
+            "orange",
+            "قرمز",
+            "task"
+          ],
+          [
+            "orange",
+            "سبز",
+            "task"
+          ],
+          [
+            "orange",
+            "آبی",
+            "task"
+          ],
+          [
+            "orange",
+            "نارنجی",
+            "task"
+          ],
+          [
+            "orange",
+            "قرمز",
+            "task"
+          ],
+          [
+            "orange",
+            "سبز",
+            "task"
+          ]
+        ]
+      },
+      "title": "Stroop task",
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "files": {
+        "rows": []
+      },
+      "sample": {
+        "mode": "draw-shuffle"
+      }
+    },
+    "4": {
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "id": "4",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "2",
+        "5",
+        "6"
+      ],
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "title": "Trial",
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "files": {
+        "rows": []
+      },
+      "shuffle": true
+    },
+    "5": {
+      "id": "5",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "2.4.4",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 331.08,
+          "height": 36.16,
+          "fill": "${ this.parameters.color }",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "${ this.parameters.word }",
+          "fontSize": "72",
+          "fontWeight": "bold",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "6",
+          "styles": {}
+        }
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "responses": {
+        "rows": [
+          [
+            "red",
+            "keydown",
+            "",
+            "r"
+          ],
+          [
+            "green",
+            "keydown",
+            "",
+            "g"
+          ],
+          [
+            "blue",
+            "keydown",
+            "",
+            "b"
+          ],
+          [
+            "orange",
+            "keydown",
+            "",
+            "o"
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "viewport": [
+        800,
+        600
+      ],
+      "title": "Stroop screen",
+      "correctResponse": "${ this.parameters.color }"
+    },
+    "6": {
+      "id": "6",
+      "type": "lab.canvas.Screen",
+      "content": [],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "viewport": [
+        800,
+        600
+      ],
+      "title": "Inter-trial interval",
+      "timeout": "500"
+    },
+    "7": {
+      "id": "7",
+      "type": "lab.canvas.Frame",
+      "context": "<main class=\"content-vertical-center content-horizontal-center\">\n  <canvas />\n</main>\n\n<footer class=\"content-vertical-center content-horizontal-center\">\n  <p>\n    رنگ کلمه <em>بالا</em> \n    را مشخص کنید؟ <br>\n    لطفا برای رنگ قرمز، کلید <kbd>r</kbd> را فشار دهید,\n    <kbd>g</kbd> برای رنگ سبز,\n    <kbd>b</kbd> برای رنگ آبی و  <kbd>o</kbd> برای رنگ نارنجی\n  </p>\n</footer>\n",
+      "contextSelector": "canvas",
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Practice frame",
+      "children": [
+        "10"
+      ]
+    },
+    "8": {
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "id": "8",
+      "type": "lab.html.Screen",
+      "responses": {
+        "rows": [
+          [
+            "continue",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      },
+      "title": "Instruction",
+      "content": "<header class=\"content-vertical-center content-horizontal-center\">\n  <h1>Stroop Task</h1>\n</header>\n<main>\n  <p>\n   به آزمون  <strong>استروپ خوش آمدید</strong>\n  </p>\n  <p>\n    با سلام. لطفا در ادامه آزمون  \n    <strong>رنگ حروف نمایش یافته بر روی صفحه نمایش را  علامت بزنید. </strong>.<br>\n    از متن کلمه نوشته شده صرف نظر کنید.\n  </p>\n  <p>\n    برای تعیین رنگ کلمات از کلیدها استفاده کنید. <strong>r</strong>, \n    <strong>g</strong>, <strong>b</strong> و \n    <strong>o</strong> برای به ترتیب،  \n    <span style=\"color: red;\">قرمز</span>, \n    <span style=\"color: green;\">سبز</span>, \n    <span style=\"color: blue;\">آبی</span> و \n    <span style=\"color: orange;\">نارنجی</span>, \n    .<br>\n    لطفا تا اندازه ای که برایتان ممکن است، با سرعت کلمات را انتخاب کنید..\n  </p>\n</main>\n<footer class=\"content-vertical-center content-horizontal-center\">\n  لطفا هر گاه که برای شروع آزمون آماده بودید، کلید فاصله را فشار دهید..\n</footer>\n",
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "files": {
+        "rows": []
+      }
+    },
+    "9": {
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "id": "9",
+      "type": "lab.html.Screen",
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "title": "Thanks",
+      "content": "<header class=\"content-vertical-center content-horizontal-center\">\n  <h1 پایان آزمون  </h1>\n</header>\n<main>\n  <p>\n    بسیار عالی، از وقتی که برای شرکت در آزمون گذاشتید، سپاسگزاریم\n  </p>\n</main>\n<footer class=\"content-vertical-center content-horizontal-center\">\n  <p>\n   اگر در مورد این آزمون سوال یا پیشنهاد یا انتقادی دارید، لطفا به آدرس زیر ایمیل بزنید.,<br> \n    <a mailto aso.shojaie@gmail.com>\n    </a>.\n  </p>\n</footer>\n",
+      "timeout": "10",
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "files": {
+        "rows": []
+      }
+    },
+    "10": {
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "id": "10",
+      "type": "lab.flow.Loop",
+      "children": [
+        "4"
+      ],
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "color",
+            "type": "string"
+          },
+          {
+            "name": "word",
+            "type": "string"
+          },
+          {
+            "name": "phase",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "red",
+            "قرمز",
+            "practice"
+          ],
+          [
+            "green",
+            "سبز",
+            "practice"
+          ],
+          [
+            "blue",
+            "آبی",
+            "practice"
+          ],
+          [
+            "orange",
+            "نارنجی",
+            "practice"
+          ]
+        ]
+      },
+      "title": "Practice task",
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "files": {
+        "rows": []
+      },
+      "_collapsed": true,
+      "sample": {
+        "mode": "draw-shuffle"
+      }
+    },
+    "root": {
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "id": "root",
+      "title": "root",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "8",
+        "7",
+        "1",
+        "9"
+      ],
+      "plugins": [
+        {
+          "type": "lab.plugins.Metadata"
+        }
+      ],
+      "metadata": {
+        "title": "Stroop task",
+        "description": "An implementation of the classic paradigm introduced by Stroop (1935).",
+        "repository": "https://github.com/FelixHenninger/lab.js/tree/master/tasks",
+        "contributors": "Felix Henninger <mailbox@felixhenninger.com> (http://felixhenninger.com)"
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "files": {
+        "rows": []
+      }
+    }
+  },
+  "version": [
+    20,
+    1,
+    1
+  ],
+  "files": {
+    "files": {
+      "index.html": {
+        "content": "data:text/html,%3C!doctype%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Ctitle%3EExperiment%3C%2Ftitle%3E%0A%20%20%3C!--%20lab.js%20library%20and%20experiment%20code%20--%3E%0A%20%20%24%7B%20header%20%7D%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3C!--%20If%20you're%20looking%20to%20fill%20all%20available%20browser%20space%2C%0A%20%20%20%20%20%20%20try%20replacing%20the%20class%20below%20with%20%22container%20fullscreen%22%20--%3E%0A%20%20%3Cdiv%20class%3D%22container%20fullscreen%22%20data-labjs-section%3D%22main%22%3E%0A%20%20%20%20%3Cmain%20class%3D%22content-vertical-center%20content-horizontal-center%22%3E%0A%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%3Ch2%3ELoading%20Experiment%3C%2Fh2%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EThe%20experiment%20is%20loading%20and%20should%20start%20in%20a%20few%20seconds%3C%2Fp%3E%0A%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%3C%2Fmain%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A",
+        "source": "library"
+      },
+      "style.css": {
+        "content": "data:text/css,%2F*%20Please%20define%20your%20custom%20styles%20here%20*%2F",
+        "source": "library"
+      }
+    },
+    "bundledFiles": {
+      "lib/lab.css": {
+        "type": "text/css"
+      },
+      "lib/loading.svg": {
+        "type": "image/svg+xml"
+      },
+      "lib/lab.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.js.map": {
+        "type": "text/plain"
+      },
+      "lib/lab.fallback.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.legacy.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.legacy.js.map": {
+        "type": "text/plain"
+      }
+    }
+  }
+}
